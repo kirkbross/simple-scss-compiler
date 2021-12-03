@@ -1,0 +1,24 @@
+.grid-wrap {
+  grid-gap: 10px;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 15px 0;
+}
+.grid-wrap .card {
+  position: relative;
+  background-color: #F3B18C;
+}
+.grid-wrap .card:before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+body {
+  background-color: #4E9CBA;
+  font-size: 17px;
+}
+/*# sourceMappingURL=example.css.map */

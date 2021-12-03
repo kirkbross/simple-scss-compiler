@@ -1,0 +1,11 @@
+// this is an example file only
+
+@import './_partials/variables';
+@import '../node_modules/include-media/dist/include-media';
+@import './_partials/colors';
+@import './_partials/grid';
+
+body {
+  background-color: #4E9CBA;
+  font-size: 17px;
+}

@@ -1,0 +1,19 @@
+.grid-wrap {
+  grid-gap: 10px;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  padding: 15px 0;
+  
+  .card {
+    position: relative;
+    background-color: #F3B18C;
+    // for aspect ratio
+    &:before {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "simple-scss-compiler",
+  "version": "1.0.0",
+  "description": "A simple Gulp 4/ sass compiler with cssnano, autoprefixer and include-media",
+  "author": "Kirk Ross",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "prod": "gulp prod"
+  },
+  "browserslist": [
+    "> 5%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "include-media": "^1.4.10",
+    "postcss": "^8.2.8",
+    "pump": "^3.0.0",
+    "sass": "^1.32.12"
+  }
+}
