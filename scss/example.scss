@@ -1,5 +1,4 @@
 // this is an example file only
-
 @import './_partials/variables';
 @import '../node_modules/include-media/dist/include-media';
 @import './_partials/colors';
@@ -18,26 +17,27 @@ ul {
   margin: 0;
   padding: 15px;
   width: 100%;
-  
+
   li {
     align-self: center;
     margin: 0 10px;
-    
+
     a {
       color: #cccccc;
       display: block;
       font-size: 18px;
       padding: 4px 12px;
+
       // anchor tag with .active class will be black
       &.active {
         color: #000000;
       }
     }
-    
+
     &:first-child {
       margin-left: 0;
     }
-    
+
     &:last-child {
       margin-right: 0;
     }

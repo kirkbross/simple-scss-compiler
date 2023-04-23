@@ -1,3 +1,4 @@
+/* color variables you can use in your main file or any partial, ie, _partial/_whatever.scss */ /* basic grid */
 .grid-wrap {
   grid-gap: 10px;
   display: grid;
